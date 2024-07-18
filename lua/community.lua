@@ -11,4 +11,8 @@ return {
   -- import/override with your plugins folder
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.completion.codeium-vim" },
+  { import = "astrocommunity.editing-support.refactoring-nvim" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.motion.flash-nvim" },
+  { import = "astrocommunity.utility.noice-nvim" },
 }
