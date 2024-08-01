@@ -15,4 +15,6 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.recipes.vscode" },
 }
