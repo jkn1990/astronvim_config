@@ -10,16 +10,3 @@ if vim.g.neovide then
   vim.o.guifont = "JetbrainsMono Nerd Font:h14:i"
 
 end
-
-
-if vim.g.vscode then
-  -- Put anything you want to happen only in Vscode here
-  local vscode = require('vscode')
-
-  vim.keymap.set({ "n", "x", "i" }, "<C-d>", function()
-    vscode.with_insert(function()
-      vscode.action("editor.action.addSelectionToNextFindMatch")
-    end)
-  end)
-
-end
